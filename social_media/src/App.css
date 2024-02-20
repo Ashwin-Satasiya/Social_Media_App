@@ -1,0 +1,43 @@
+.main-container {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+}
+
+.sidebar {
+  width: 230px;
+  min-height: 750px;
+}
+
+.post-card {
+  background-color: ghostwhite;
+  width: 600px;
+  margin: 25px 0px 0px 25px;
+}
+
+.post-content {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.post-alert {
+  padding: 8px;
+  margin-top: 18px;
+}
+
+.hastags {
+  margin: 0px 3px;
+  padding: 8px 15px;
+  font-size: 17px;
+  background-color: rgb(26, 187, 149) !important;
+}
+
+.createPost-form {
+  width: 50%;
+  margin: 25px;
+  padding: 25px;
+  border: 2px solid rgb(45, 51, 102);
+  border-radius: 5px;
+}
